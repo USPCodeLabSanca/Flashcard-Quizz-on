@@ -15,7 +15,7 @@ A tela com decks mostra todas coleções de cards atuais. Deve ser possível adi
 - **Tela dos cards**
 Ao editar um deck, pode-se adiconar, excluir e editar um card. Um card consiste de uma pergunta/charada e com uma resposta associada.
 
-  - Opicional: Um card pode ser de diferentes tipo: pergunta-alternativas, pergunta-resposta, associação de imagens ou qualquer padrão a mais que acharem legal. 
+  - Opicional: Um card pode ser de diferentes tipos: pergunta-alternativas, pergunta-resposta, associação de imagens ou qualquer padrão a mais que acharem legal. 
 
   - Objetivo: Criar coleções de cards relacionados ao tema do deck.
 Sugestão: Uma simples lista de cards criadas. Ao clicar em um card, ele mostra o card. Pode-se mostra imediatamente a pergunta. A resposta pode ser revelada ao clicar em um botão.
@@ -23,7 +23,7 @@ Sugestão: Uma simples lista de cards criadas. Ao clicar em um card, ele mostra 
 - **Tela do quizz**
 Quando um deck tem mais de 10 cards, pode-se iniciar um quizz! Ele consiste de uma grade 3x3 de cards, em que se deve responder os cards de forma cronometrada.
 
-  - Opicional: O cronometro deve ser pensado pelo grupo: cada card pode ter o seu, ou pode-se adiconar um cronometro por "round". A grade pode variar para nxm, sendo n e m da escolha do grupo. Assim, pode-se mostra um card por vez (1x1 com cronometro). Seria interessante criar um score também. 
+  - Opicional: O cronometro deve ser pensado pelo grupo: cada card pode ter o seu, ou pode-se adiconar um cronometro por "round". A grade pode variar para nxm, sendo n e m da escolha do grupo. Assim, pode-se mostra um card por vez (1x1 com cronometro), 2 por vez (1x2), ou de forma dinâmica; como preferirem. Seria interessante criar um score também. 
   
   - Sugestão: Usar o display grid do css. 
 
