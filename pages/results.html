@@ -6,56 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet"> 
-    <title>Resultados</title>
-    <style>
-        body {
-            background-color: #080E90;
-            font-family: 'Graduate';
-        }
-        header {
-            padding: 10px 20px;
-            background-color: #FCFF73;
-            font-style: normal;
-            font-weight: 400;
-        }
-        .content {
-            color: white;
-        }
-        .score {
-            text-align: center;
-        }
-
-        .respostas {
-            padding: 20px;
-            font-size: larger;
-            line-height: 2;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/results.css">
+    <title>Resultados - Quizr</title>
 </head>
     <body>
         <header>
-            <h1> Quizr </h1>
+            <h1 class="logo" style="margin-left: 40px;"> Quizr </h1>
         </header>
 
         <div class="content">
             <div class="score">
                 <h2 class="time">Tempo Realizado: <span id="tempo">10:00</span></h2>
-                <h2 class="time">Pontuação <span id="pontos">1</span>/<span id="total">9</span></h2>
+                <h2 class="time">Pontuação <span id="pontos">1/9</span></h2>
             </div>
 
             <div class="respostas">
                 <ol>
                     <li>
-                        <p>Qual é o 7 planeta do sistema solar?:  
+                        <p><span id="pergunta1">Qual é o 7 planeta do sistema solar?:</span>  
                         <svg height="30" width="30">
                             <circle cx="15" cy="15" r="15" fill="#85FFA7"/>
                         </svg></p>
-                        <p>Sua resposta: <span id="resposta_usuario">Urano</span> Resposta Correta: <span id="resposta_certa">Urano</span></p>
+                        <p>Sua resposta: <span id="resposta_usuario1">Urano</span>&nbsp;&nbsp;&nbsp;&nbsp;Resposta Correta: <span id="resposta_certa1">Urano</span></p>
                     </li>
-                    <li>Qual é o 7 planeta do sistema solar?: </li>
-                    <li>Qual é o 7 planeta do sistema solar?: </li>
+                    <li>
+                        <p><span id="pergunta1">Qual é o 7 planeta do sistema solar?:</span>
+                        <svg height="30" width="30">
+                            <circle cx="15" cy="15" r="15" fill="#FF8585"/>
+                        </svg></p>
+                        <p>Sua resposta: <span id="resposta_usuario2">Mercúrio</span>&nbsp;&nbsp;&nbsp;&nbsp;Resposta Correta: <span id="resposta_certa2">Urano</span></p>
+                    </li>
+                    <li>
+                        <p><span id="pergunta1">Qual é o 7 planeta do sistema solar?:</span>
+                        <svg class="correto" height="30" width="30">
+                            <circle cx="15" cy="15" r="15" fill="#FF8585"/>
+                        </svg></p>
+                        <p>Sua resposta: <span id="resposta_usuario3">Undefined</span>&nbsp;&nbsp;&nbsp;&nbsp;Resposta Correta: <span id="resposta_certa3">Urano</span></p>
+                    </li>
+                    <li>
+                        <p><span id="pergunta1">Qual é o 7 planeta do sistema solar?:</span>
+                        <svg class="correto" height="30" width="30">
+                            <circle cx="15" cy="15" r="15" fill="#FF8585"/>
+                        </svg></p>
+                        <p>Sua resposta: <span id="resposta_usuario3">Undefined</span>&nbsp;&nbsp;&nbsp;&nbsp;Resposta Correta: <span id="resposta_certa3">Urano</span></p>
+                    </li>
                 </ol>
+            </div>
+            
+            <div style="text-align:center;">
+                <a href="./home.html"><button class="voltar">Voltar para Home</button></a>
             </div>
         </div>
     </body>
