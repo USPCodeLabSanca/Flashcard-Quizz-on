@@ -57,7 +57,8 @@ ul{
 }
 
 #corpo{
-    position: relative;
+    display:-ms-flexbox;
+    position: absolute;
     color:#FCFF73;
     width: 80%;
     height: 100%;
@@ -121,6 +122,7 @@ ul{
 }
 
 #botaoAd{
+    display: flex;
     position: relative;
     left: 260px;
     margin: 30px 0px 15px 0px;
@@ -140,10 +142,15 @@ ul{
     text-align: center;
 }
 
+#add{
+    position: relative;
+    left:200px;
+}
+
 #botaoSalvar{
     position: relative;
-    right: 400px;
-    top: 150px;
+    left: 460px;
+    top: 10px;
     width: 433px;
     height: 137px;
     background: #FCFF73;
@@ -156,5 +163,11 @@ ul{
     line-height: 55px;
     align-items: center;
     text-align: center;
+    display: flex;
 
+}
+
+#save{
+    position: relative;
+    left:110px;
 }
