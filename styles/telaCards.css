@@ -1,0 +1,73 @@
+body{
+    background-color: #080E90;
+    font-family: 'Graduate';
+    font-style: normal;
+}
+
+.titulo{
+    display: flex;
+    position: fixed;
+    width: 148px;
+    height: 0px;
+    left: 680px;
+    top: 0px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 30px;
+    color: #080E90;
+
+}
+
+#nomeDeck{
+    display:flex;
+    position: fixed;
+    width: 288px;
+    height: 40px;
+    left: 625px;
+    top: 60px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #080E90;
+}
+
+#cabecalho1{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #FCFF73;
+}
+
+#cabecalho2{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 65px;
+    background-color: #FF73C7;
+}
+
+.subtitulo{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 30px;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 0px;
+    color: #F5F5F5;
+}
+
+#corpo{
+    position: relative;
+    color:#FCFF73;
+    width: 900px;
+    height: 300px;
+    top: 200px;
+    left: 100px;
+}
