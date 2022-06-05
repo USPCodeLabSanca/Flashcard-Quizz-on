@@ -13,23 +13,34 @@
 
     <body>
         <div id="container">
-            <div id="cabecalho1">
+            <header id="cabecalho1">
                 <h1 class="titulo"> Quizr </h1>
-            </div>
+            </header>
 
-            <div id="cabecalho2">
-                <p id="nomeDeck"> Nome Deck </p>
-            </div>
+            <header id="cabecalho2">
+                <h1 id="nomeDeck"> Nome Deck </h1>
+            </header>
 
             <div id="corpo">
+
                 <h3 class="subtitulo">Cards dos deck</h3>
-                <ul id="lista-cards">
+                <div id="lista-cards">
+                    
+                    <ul>
+                        <li id = "card1" class="card"> <span class="cardTitulo">TITLE</span> <button class="botaoEd"> EDIT </button> <button class="botaoDel"> DELETE </button> </li>
+                        <li id = "card2" class="card"> <span class="cardTitulo">TITLE</span> <button class="botaoEd"> EDIT </button> <button class="botaoDel"> DELETE </button> </li>
+                        <li id = "card3" class="card"> <span class="cardTitulo">TITLE</span> <button class="botaoEd"> EDIT </button> <button class="botaoDel"> DELETE </button> </li>
+                        <li id = "card4" class="card"> <span class="cardTitulo">TITLE</span> <button class="botaoEd"> EDIT </button> <button class="botaoDel"> DELETE </button> </li>
+                        <li id = "card5" class="card"> <span class="cardTitulo">TITLE</span> <button class="botaoEd"> EDIT </button> <button class="botaoDel"> DELETE </button> </li>
+            
+                    </ul>
 
-                </ul>
+                </div>
 
-                <button id="botaoAd"> Adicionar cards </button>
-
-                <button id="botaoSalvar"> Salvar </button>
+                <div>
+                    <button id="botaoAd"> Adicionar cards </button>
+                    <button id="botaoSalvar"> Salvar </button>
+                 </div>
                 
             </div>
 
