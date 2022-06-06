@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #080E90;
+    font-family: 'Graduate';
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    font-size: 1.3em;
+    background-color: #FCFF73;
+    color: #080E90;
+    font-style: normal;
+    font-weight: 400;
+}
+.deck{
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    background-color: #FF73C7;
+    color: #080E90;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: -28px;
+}
+.salvar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FCFF73;
+    border:1px solid #FCFF73;
+    width: 100px;
+    height: 40px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: 550px;
+    margin-left: 500px;
+}
+.cancelar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color:red;
+    border:1px solid red;
+    text-emphasis-color: white;
+    width: 100px;
+    height: 40px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: -40px;
+    margin-left: 700px;
+}
