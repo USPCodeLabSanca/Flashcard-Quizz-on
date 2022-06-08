@@ -101,6 +101,12 @@ ul{
     border-radius: 35px;
 }
 
+
+.expend:hover{
+    width: 800px;
+    height: 800px;
+}
+
 .botaoDel{
     position: relative;
     left: 820px;
