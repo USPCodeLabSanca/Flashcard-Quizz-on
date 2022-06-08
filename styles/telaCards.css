@@ -18,7 +18,7 @@ ul{
     font-size: 40px;
     line-height: 30px;
     color: #080E90;
-
+    text-align: center;
 }
 
 #nomeDeck{
@@ -31,6 +31,7 @@ ul{
     font-size: 40px;
     line-height: 20px;
     color: #080E90;
+    text-align: center;
 }
 
 #cabecalho1{
