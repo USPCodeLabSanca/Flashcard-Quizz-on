@@ -1,12 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
 body {
     margin: 0;
 }
 body {
     background-color: #080E90;
-    font-family: 'Graduate';
-    font-style: normal;
+    font-family: 'Graduate', cursive;
 }
-
 header {
     text-align: center;
     position: absolute;
@@ -15,20 +14,18 @@ header {
     top: 0; 
     left: 0; 
     right: 0;
-    font-size: 1.3em;
+    font-size: 20px;
     background-color: #FCFF73;
     color: #080E90;
-    font-weight: 400;
 }
 .deck{
     text-align: center;
     position: absolute;
     width: 100%;
     height: 80px;
-    font-size: 1em;
+    font-size: 20px;
     background-color: #FF73C7;
     color: #080E90;
-    font-weight: 300;
     margin-top: -525px;
 }
 .salvar{
@@ -37,11 +34,13 @@ header {
     align-items: center;
     background-color: #FCFF73;
     border:1px solid #FCFF73;
-    width: 200px;
-    height: 60px;
+    width: 350px;
+    height: 120px;
     border-radius: 15px;
     margin-top: 600px;
-    margin-left: 410px;
+    margin-left: 300px;
+    font-size: 2.4em;
+    font-family: 'Graduate', cursive;
 }
 .cancelar{
     justify-content: center;
@@ -49,79 +48,85 @@ header {
     align-items: center;
     background-color:red;
     border:1px solid red;
-    width: 200px;
-    height: 60px;
+    color: white;
+    width: 350px;
+    height: 120px;
     border-radius: 15px;
-    margin-top: -60px;
-    margin-left: 660px;
+    margin-top: -115px;
+    margin-left: 700px;
+    font-size: 2.4em;
+    font-family: 'Graduate', cursive;
 }
 .titulo{
     color: white;
-    font-size: 2em;
-    margin-top: -500px;
+    font-size: 2.3em;
+    margin-top: -555px;
     margin-left: 50px;
 }
 .barra{
     background-color: white;
-    height: 35px;
-    margin-left: 300px;
+    height: 50px;
+    width: 1100px;
+    margin-left: 150px;
     margin-right: 300px;
     justify-content: center;
-    margin-top: 75px;
-    border-radius: 15px;
+    margin-top: 70px;
+    border-radius: 35px;
     font-size: 1.3em;
+    
 }
-.resposta1{
+.Resposta1{
     background-color: white;
-    height: 35px;
-    margin-left: 350px;
+    height: 50px;
+    width: 1050px;
+    margin-left: 200px;
     margin-right: 300px;
     justify-content: center;
-    border-radius: 15px;
-    font-size: 1.3em;
-    margin-top: 0px;
+    border-radius: 35px;
+    margin-top: 10px;
 }
-.resposta2{
+.Resposta2{
     background-color: white;
-    height: 35px;
-    margin-left: 350px;
+    height: 50px;
+    width: 1050px;
+    margin-left: 200px;
     margin-right: 300px;
     justify-content: center;
-    border-radius: 15px;
-    font-size: 1.3em;
-    margin-top: -10px;
+    border-radius: 35px;
+    margin-top: 10px;
 }
-.resposta3{
+.Resposta3{
+    text-align: justify;
     background-color: white;
-    height: 35px;
-    margin-left: 350px;
+    height: 50px;
+    width: 1050px;
+    margin-left: 200px;
     margin-right: 300px;
     justify-content: center;
-    border-radius: 15px;
-    font-size: 1.3em;
-    margin-top: -10px;
+    border-radius: 35px;
+    margin-top: 10px;
 }
 .circulo1{
     background-color: rgb(42, 228, 42);
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
-    margin-top: -125px;
-    margin-left: 310px;
+    margin-top: -175px;
+    margin-left: 150px;
 }
 .circulo2{
     background-color: red;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     margin-top: 15px;
-    margin-left: 310px;
+    margin-left: 150px;
 }
 .circulo3{
     background-color: red;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     margin-top: 15px;
-    margin-left: 310px;
+    margin-left: 150px;
 }
