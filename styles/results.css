@@ -58,3 +58,7 @@ header {
 .voltar:hover {
     background: #85FFFF;
 }
+
+.resposta {
+	margin-left: 30px;
+}

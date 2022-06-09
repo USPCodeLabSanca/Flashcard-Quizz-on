@@ -18,7 +18,7 @@ ul{
     font-size: 40px;
     line-height: 30px;
     color: #080E90;
-
+    text-align: center;
 }
 
 #nomeDeck{
@@ -31,6 +31,7 @@ ul{
     font-size: 40px;
     line-height: 20px;
     color: #080E90;
+    text-align: center;
 }
 
 #cabecalho1{
@@ -98,6 +99,12 @@ ul{
     padding: 10px 10px 15px 40px;
     font-size: 28px;
     border-radius: 35px;
+}
+
+
+.expend:hover{
+    width: 800px;
+    height: 800px;
 }
 
 .botaoDel{
