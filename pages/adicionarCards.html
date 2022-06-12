@@ -6,28 +6,44 @@
     </head>
     <body>
         <header>
-            <h1>Quizr </h1>
-        </header>
-        <div class="deck">
+            <div class="header">
+            <h1>Quizr</h1>
+            </div>
+            <div class='header deck'>
             <h1>NOME DECK</h1>
+            </div>
+        </header>
+
+        <p class="titulo">ADD CARD TO DECK</p>
+        <h2>Pergunta</h2>
+        <input class="barra"></input>
+        <div class="select">
+            <p>Mudar tipo do card</p>
+            <div class="check"></div>
         </div>
-        <div>
-            <button class="salvar">SALVAR</button>
+        <div class="subjetiva">
+            <h2>Resposta</h2>
+            <input class="barra"></input>
         </div>
-        <div>
-            <button class="cancelar">CANCELAR</button>
+        <div class="alternativas">
+            <h2>alternativas</h2>
+            <div class="circuloResposta">
+                <div class="circulo green"></div>
+                <input class="Resposta"></input>
+            </div>
+            <div class="circuloResposta">
+                <div class="circulo red"></div>
+                <input class="Resposta"></input>
+            </div>
+            <div class="circuloResposta">
+                <div class="circulo red"></div>
+                <input class="Resposta"></input>
+            </div>
         </div>
-        <div class="titulo">
-            <p>ADD CARD TO DECK</p>
+        <div class="butoes"> 
+            <button class="salvar botao">SALVAR</button>
+            <button class="cancelar botao">CANCELAR</button>
         </div>
-        <div class="barra">
-            <input></input>
-        </div>
-         <div class="Resposta1"><input></input></div>
-        <div class="Resposta2"><input></input></div>
-        <div class="Resposta3"><input></input></div>
-        <div class="circulo1"></div>
-        <div class="circulo2"></div>
-        <div class="circulo3"></div>
+        <script src="../scripts/newCard.js"></script>
     </body>
 </html>
