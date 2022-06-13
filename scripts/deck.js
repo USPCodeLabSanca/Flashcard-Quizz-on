@@ -39,7 +39,7 @@ class deck{
     }
     add_card(type, question, answer, alternatives){
         let new_card = ""
-        if(type==0)
+        if(type)
             new_card = new cardD(this.cardIds, type, question, answer)
         else
             new_card = new cardM(this.cardIds, type, question, answer, alternatives)
