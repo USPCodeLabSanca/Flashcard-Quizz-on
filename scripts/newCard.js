@@ -14,8 +14,10 @@ document.querySelector(".check").addEventListener("click", () => {
     }
 })
 document.querySelector(".salvar").addEventListener("click", ()=>{
-    aux = JSON.parse(localStorage.getItem("deck"))
-    d = new deck(aux.name, aux.id)
+    decks = JSON.parse(localStorage.getItem("decks"))
+    id = localStorage.getItem("deckAtual")
+    aux = decks.deck_list[id]
+    d = new deck(aux.name)
     d.card_list = aux.card_list
     pergunta = document.querySelector(".pergunta").value
     if(tipo){
@@ -31,7 +33,8 @@ document.querySelector(".salvar").addEventListener("click", ()=>{
     document.querySelector(".respostaAlt").value = ""
     document.querySelector(".alt1").value = "" 
     document.querySelector(".alt2").value = ""
-    localStorage.setItem("deck",  JSON.stringify(d))
+    decks.deck_list[id] = d
+    localStorage.setItem("decks",  JSON.stringify(decks))
     window.location.href = "file:///C:/Users/jeans/Documents/codeLab/Flashcard-Quizz-on/pages/telaCards.html"
 
 })

@@ -1,8 +1,9 @@
-if(localStorage.getItem("deck")=="null"){
-    window.localStorage.setItem("deck",  JSON.stringify(new deck("deck1", 1)))
-}
-d = JSON.parse(localStorage.getItem("deck"))
+decks = JSON.parse(localStorage.getItem("decks"))
+id = localStorage.getItem("deckAtual")
+console.log(id)
+d = decks.deck_list[id]
 i = 0
+document.getElementById("nomeDeck").textContent = d.name
 d.card_list.forEach(c => {
     newCard = document.createElement("li")
     newCard.id = i
@@ -28,5 +29,6 @@ if(del)
         id = del.parentNode.id
         d.card_list.splice(id, 1)
         location.reload()
-        window.localStorage.setItem("deck",  JSON.stringify(d))  
+        decks.deck_list[id] = d
+        window.localStorage.setItem("decks",  JSON.stringify(decks))  
     })

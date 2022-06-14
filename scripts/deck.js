@@ -31,8 +31,7 @@ class cardD extends card{
     }
 }
 class deck{
-    constructor(name, id){
-        this.id = id;
+    constructor(name){
         this.card_list = []
         this.name = name
         this.cardIds = 0
@@ -60,20 +59,11 @@ class deck{
     }
 }
 class userDecks{
-    deck_list = []
-    deckIds = 0
-    add_deck(name){
-        new_deck = new deck(name)
-        this.deck_list.push(new_deck, this.deckIds)
-        this.deckIds+=1
+    constructor(){
+        this.deck_list = []
     }
-    remove_card(id){
-        for(let i = 0; i<this.deck_list.length; i++){
-            if(this.deck_list[i].id == id){
-                this.deck_list.splice(i, 1)
-                break
-            }
-
-        }
+    add_deck(name){
+        let new_deck = new deck(name)
+        this.deck_list.push(new_deck)
     }
 }

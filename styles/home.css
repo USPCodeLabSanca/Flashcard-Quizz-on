@@ -19,9 +19,59 @@ header span{
 }
 img {
     width: 6em;
+    height: 6em;
+    align-self: center;
 }
 p{
     color: white;
     text-align: center;
     font-size: 2em;
+}
+.botao{
+    display: flex;
+    width: 30%;
+    height: 7em;
+    background-color: white;
+    border-radius: 2em;
+    align-content: center;
+    justify-content: center;
+}
+.botao p{
+    color: black;
+    font-size: 1em;
+    align-self: center;
+}
+.botoes{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+.b1{
+    margin-bottom: 1em;
+    width: 24%;
+    margin-left: 38%;
+}
+.b2{
+background-color: aqua;
+}
+.b3{
+
+    background-color: pink;
+
+}
+.b4{
+background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+select{
+    width: 40%;
+    background-color: pink;
+    border: 0px;
+    font-size: 1em;
+}
+select option{
+    border: none;
 }
